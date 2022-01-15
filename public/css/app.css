@@ -1,0 +1,103 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+.full-height {
+    height: 100vh;
+}
+.card{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+}
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+.inline{
+    display:inline;
+}
+#headerList ul li {
+    display:inline;
+}
+
+#top-left {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+.titlesmall{
+    font-size: 25px;
+}
+.card-header{
+    display: block;
+    font-size: 25px;
+}
+#top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 35px;
+}
+#rtitle{
+    font-size: 25px
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.linkf > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.functionList {
+    border:5px #00BDBD solid;
+    padding:25px;
+    font-size: 25px;
+    /*color: #636b6f;*/
+    /*font-weight: 600;*/
+    /*letter-spacing: .1rem;*/
+    /*text-decoration: none;*/
+    /*text-transform: uppercase;*/
+    /*font-family: 'Nunito', sans-serif;*/
+}
+
+.REtable tr th{
+    width:20vh;
+}
+.REtable tr td{
+    text-align: center;
+}
